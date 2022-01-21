@@ -1,0 +1,85 @@
+:root{
+    --primary-color:#22c55e;
+    --secondary-color:#bbf7d0;
+    --notification-color:#f97316;
+    --offgreen:#f0fdf4;
+    --darkerofseconadary:#86efac;
+
+}
+body{
+    margin:50px 50px;
+    
+}
+.section-og{
+    background-color: var(--offgreen);
+    margin:auto;
+    padding:2rem 2rem;
+}
+.container-class{
+    position:relative;
+    margin:0rem 2rem;
+    display:inline-block;
+}
+.badge{
+    box-sizing:border-box;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:var(--notification-color);
+    color:white;
+    text-align:center;
+    font-size:small;
+    position:absolute;
+    left:108px;
+    bottom:5px;
+    padding-top:3px;
+}
+.container-class button{
+    padding:5px 10px;
+    background-color:var(--darkerofseconadary);
+    color:black;
+    border-radius:3px;
+    border:0px solid black;
+    box-shadow: 0px 3px 5px lightgray;
+    cursor:pointer;
+}
+.container-class button:hover{
+    background-color: var(--primary-color);
+
+}
+.button{
+    left:50px; bottom:13px;
+}
+.icon{
+    left:25px; bottom:20px;
+}
+/* CSS FOR CHIPS */
+.chips ul{
+
+    display:flex;
+    flex-wrap: wrap;
+    margin:5px 5px;
+
+}
+.inline-list{
+    box-sizing:border-box;
+    margin-right: 5px;
+    padding-left:5px;
+    background-color: var(--secondary-color);
+    border-radius:20px;
+    
+    
+}
+.cross-align{
+    display:inline-block;
+    margin-right:10px;
+    padding-left:8px;
+    cursor:pointer;
+    
+    
+}
+
+
+
+
+
