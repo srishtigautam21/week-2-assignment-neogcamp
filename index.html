@@ -18,8 +18,8 @@
                 <div class="badge">1</div>
             </div>
             <div class="container-class">
-                <button>Action</button>
-                <div class="badge button">8</div>
+                <button class="badge-button">Action</button>
+                <div class="badge circle">8</div>
             </div>
             <div class="container-class">
                 <img src="icon.svg" />
@@ -30,22 +30,19 @@
         <h2>Drawer</h2>
         <section class="section-og">
             <div class="wrapper">
-                <h3>Title</h3>
+                <h2>Title</h2>
                 <p>SubText</p>
                 <ul class="center-content">
-                    <li class="rowise-list background-fullcolor" style="background:rgb(147, 245, 147)">
-                        <a class="decoration-none"href="#"><i class="fa fa-inbox icon-list" style="font-size:20px">
-                        </i>Inbox</a></li>
-                        <!-- <i class="fa fa-inbox icon-list" style="font-size:20px"></i>Inbox</li> -->
-                    <li class="rowise-list">
-                        <a class="decoration-none"href="#"><i class="fa fa-star icon-list" style="font-size:20px"></i>
-                        </a>Star</li>
-                    <li class="rowise-list">
-                        <a class="decoration-none"href="#"><i class="fa fa-send icon-list" style="font-size:20px"></i>
-                        </a>Sent Mail</li>
-                    <li class="rowise-list">
-                        <a class="decoration-none"href="#"><i class="fa fa-envelope-open icon-list" style="font-size:20px"></i>
-                        </a>Drafts</li>
+                    <button class="drawer-button"><li class="rowise-list" style="background:rgb(147, 245, 147);padding-left:1rem">
+                        <i class="fa fa-inbox icon-list" style="font-size:20px"></i>
+                        <p class="list-name">Inbox</p></button></li>
+                    <button class="drawer-button"><li class="rowise-list">
+                        <i class="fa fa-star icon-list" style="font-size:20px;padding-right: 8px">
+                        </i><p class="list-name">Star</p></button></li>
+                    <button class="drawer-button"><li class="rowise-list">
+                            <i class="fa fa-send icon-list" style="font-size:18px"></i>Sent Mail</button></li>
+                    <button class="drawer-button"><li class="rowise-list">
+                        <i class="fa fa-envelope-open icon-list" style="font-size:20px"></i><p class="list-name">Drafts</p></button></li>    
                 </ul>
             </div>
         </section>
@@ -55,10 +52,10 @@
             <div class="wrapper chips">
                 <small>Favourite fruits</small>
                 <ul class="center-content row-chips">
-                    <li class="chips-color">Apple<button>x</button></li>
-                    <li class="chips-color">Mango<button>x</button></li>
-                    <li class="chips-color">Banana<button>x</button></li>
-                    <li class="chips-color">Oranges<button>x</button></li>
+                    <li class="chips-color">Apple<button class="cross">x</button></li>
+                    <li class="chips-color">Mango<button class="cross">x</button></li>
+                    <li class="chips-color">Banana<button class="cross">x</button></li>
+                    <li class="chips-color">Oranges<button class="cross">x</button></li>
                 </ul>
             </div>
         </section>
