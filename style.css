@@ -78,6 +78,10 @@ body{
  .icon-list{
      margin-left: -35px;
      margin-right: 30px;
+     color:black;
+ }
+ .decoration-none{
+     text-decoration: none;
  }
  /* chips-component */
  .chips{
