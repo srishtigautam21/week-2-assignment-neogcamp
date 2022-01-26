@@ -101,6 +101,7 @@ body{
  }
  .row-chips{
      flex-direction: row;
+     flex-wrap: wrap;
      list-style: none;
      gap:20px;
 }
